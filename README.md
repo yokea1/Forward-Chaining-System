@@ -1,7 +1,22 @@
 # Forward-Chaining-System
-# csc3401lab3
-# Forward-Chaining-System
-# Forward-Chaining-System # 创建了 README.md 文件
-# Forward-Chaining-System
-# csc3401lab3
-# Forward-Chaining-System
+
+
+## 项目简介
+本项目实现了一个基于规则的前向推理系统，能够根据用户的饮食偏好（如是否素食、是否喜欢辣味、是否节食、是否想吃甜点）推荐相应的菜品。通过定义灵活的规则条件和事实，系统自动推理并生成个性化推荐结果。
+
+## 功能特点
+- 使用 Python 编写，规则条件通过 lambda 表达式实现灵活判断
+- 支持多条规则匹配，能够输出多个推荐结果
+- 易于扩展和维护，添加或修改规则简单方便
+
+## 代码结构
+- `rules` 列表：定义所有规则条件和对应推荐动作
+- `facts` 字典：存储用户输入的饮食偏好事实
+- 推理过程：遍历规则，判断条件是否匹配，匹配则添加推荐结果
+
+## 使用说明
+1. 修改 `facts` 字典中的值以匹配用户饮食偏好  
+2. 运行 Python 脚本，输出推荐菜品列表  
+
+
+
